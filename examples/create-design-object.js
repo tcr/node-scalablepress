@@ -11,5 +11,5 @@ form.append('sides[front][dimensions][width]', '5')
 form.append('sides[front][artwork]', fs.createReadStream(__dirname + '/elephant.png'))
 
 form.pipe(client('design').post(form.getHeaders()['content-type'], function (err, json) {
-	console.log(err, json);
+  console.log(err, json);
 }))

@@ -1,6 +1,6 @@
 {
   "name": "scalablepress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "repository": "tcr/node-scalablepress",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "form-data": "^0.1.4",
-    "rem": "^0.7.0-2"
+    "rem": "^0.7.0-3"
   }
 }
