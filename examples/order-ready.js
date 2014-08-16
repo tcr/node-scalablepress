@@ -28,4 +28,5 @@ client('quote').post({
   'designId': '53ed3a23b3730f0e27a66513',
 }, function (err, json) {
   console.log(json);
+  // read json.orderToken on success
 });

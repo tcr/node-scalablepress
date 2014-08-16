@@ -2,7 +2,7 @@ var rem = require('rem');
 
 function createClient (key) {
   return rem.createClient({
-    base: 'http://127.0.0.1:8000/',
+    base: 'https://api.scalablepress.com/v2/',
   }, {
     uploadFormat: 'form'
   }).use(function (req, next) {

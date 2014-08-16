@@ -7,6 +7,9 @@ if (!process.env.SP_KEY) {
 
 var client = sp.createClient(process.env.SP_KEY);
 
-client('design', process.argv[2]).post({}, function (err, json) {
-	console.log(err, json);
-})
+client('order').post({
+  'orderToken': 'c6ae6ca449719e5237d103139255ecdd',
+}, function (err, json) {
+  console.log(json);
+  // read json.orderId on success
+});
